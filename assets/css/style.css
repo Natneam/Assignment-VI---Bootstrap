@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+#my-navbar{
+    padding: 1.5rem 2rem;
+}
+
+#my-navbar-brand{
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    transition: all 3s ease;
+}
+#my-navbar-brand:hover{
+    font-style: italic;
+}
+
+#sureName{
+    font-weight: 400;
+}
+
+#navbarResponsive{
+    font-size: small;
+}
+
+
+div#navbarResponsive ul li.my-nav-item a,div#navbarResponsive ul li a {
+    color: black;
+}
+
+div#navbarResponsive ul li a:hover{
+    opacity: 0.5;
+}
+
+div#navbarResponsive ul li.my-nav-item a:hover{
+    color: white;
+    opacity: 1;
+}
+
+div#navbarResponsive ul li.my-nav-item:hover{
+    background-color: black;
+}
