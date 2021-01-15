@@ -91,8 +91,8 @@ div#navbarResponsive ul li.my-nav-item:hover{
 #videos-jumbotron{
     letter-spacing: normal;
     background-color: white;
-    margin: 0 5vw;
-    width: 40vw;
+    /* margin: 0 5vw;
+    width: 40vw; */
     text-align: justify;
     font-weight: 400;
 }
@@ -105,4 +105,8 @@ div#navbarResponsive ul li.my-nav-item:hover{
 .videos-section-wrapper #videos-jumbotron .justify-content-around a{
     width: 40%;
     margin: 10% 0;
+}
+
+#slide-how-carousel, #slide-how-carousel-2{
+    margin: auto;
 }
