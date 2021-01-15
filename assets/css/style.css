@@ -23,6 +23,9 @@ body{
 }
 #my-navbar-brand:hover{
     font-style: italic;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
 }
 
 #sureName{
@@ -109,4 +112,52 @@ div#navbarResponsive ul li.my-nav-item:hover{
 
 #slide-how-carousel, #slide-how-carousel-2{
     margin: auto;
+}
+
+/* footer section */
+
+footer{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 10rem;
+    padding: 0 0;
+    margin: 0 0;
+    color: white;
+    background-color: rgb(15, 17, 37);
+    letter-spacing: normal;
+}
+
+.subscribe-wrapper{
+    position: absolute;
+    height: 20vh;
+    bottom: -6rem;
+    left: 9vw;
+    width: 80%;
+    border-radius: 10px;
+    background: url(/assets/img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote-in-subscribe{
+    color: white;
+    letter-spacing: normal;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.copy-right-wrapper{
+    margin-top: 7rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(253, 0, 0);
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(138, 0, 0);
 }
