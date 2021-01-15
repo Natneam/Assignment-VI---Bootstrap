@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,10 +8,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
+    letter-spacing: .3rem;
 }
 
 #my-navbar{
-    padding: 1.5rem 2rem;
+    padding: 1.8rem 2rem;
 }
 
 #my-navbar-brand{
@@ -33,7 +34,7 @@ body{
 }
 
 
-div#navbarResponsive ul li.my-nav-item a,div#navbarResponsive ul li a {
+div#navbarResponsive ul li.my-nav-item a,div#navbarResponsive ul li a{
     color: black;
 }
 
@@ -44,8 +45,64 @@ div#navbarResponsive ul li a:hover{
 div#navbarResponsive ul li.my-nav-item a:hover{
     color: white;
     opacity: 1;
+    background-color: black;
 }
 
 div#navbarResponsive ul li.my-nav-item:hover{
     background-color: black;
+    color: white;
+    opacity: 1;
+}
+
+/* Styling the quick intro section */
+.quick-intro-img{
+    background: url(/assets/img/bg-landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.524);
+    height: 100vh;
+    width: 100%;
+
+}
+
+.quick-intro-cover-bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(27, 27, 41);
+    opacity: 0.7;
+}
+
+.quick-intro-cover-bg div{
+    padding-top: 40vh;
+    opacity: 1;
+}
+
+.quick-intro-bio-wrapper{
+    width: 70vw;
+    margin: 20vh auto;
+    letter-spacing: normal;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+/* Videos Section */
+
+#videos-jumbotron{
+    letter-spacing: normal;
+    background-color: white;
+    margin: 0 5vw;
+    width: 40vw;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#videos-jumbotron h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.videos-section-wrapper #videos-jumbotron .justify-content-around a{
+    width: 40%;
+    margin: 10% 0;
 }
