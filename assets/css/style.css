@@ -56,7 +56,7 @@ div#navbarResponsive ul li.my-nav-item:hover{
 
 /* Styling the quick intro section */
 .quick-intro-img{
-    background: url(/assets/img/bg-landscape.jpg);
+    background: url(../img/bg-landscape.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -142,7 +142,7 @@ footer{
     left: 9vw;
     width: 80%;
     border-radius: 10px;
-    background: url(/assets/img/footer-bg.png);
+    background: url(../img/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
