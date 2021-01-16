@@ -175,3 +175,39 @@ footer a:hover{
     text-decoration: none;
     color: rgb(138, 0, 0);
 }
+
+/* start of about me page */
+
+.about-me-page-content{
+    min-height: 50rem;
+}
+
+.about-me-big-text{
+    height: fit-content;
+    font-size:5vw;
+    font-weight: bold;
+    padding-top: 1vw;
+}
+
+.my-avatar-image{
+    border-radius: 3rem 3rem 3rem 3rem;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.media-body{
+    letter-spacing: normal;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 4rem;
+    padding-top: 0;
+}
+/* End of about me page */
+
+
+/* media queries */
+@media only screen and (min-width: 992px) {
+    .my-avatar-image{
+        border-radius: 5rem 0 0 5rem;
+    }
+  }
