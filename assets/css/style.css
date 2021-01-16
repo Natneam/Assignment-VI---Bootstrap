@@ -202,6 +202,23 @@ footer a:hover{
     padding: 4rem;
     padding-top: 0;
 }
+
+.role-models{
+    min-height:max-content;
+    margin-bottom: 5rem;
+}
+
+.role-models-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-elon-musk{
+    width: 30%;
+    letter-spacing:normal;
+    line-height: 2rem;
+}
+
 /* End of about me page */
 
 
