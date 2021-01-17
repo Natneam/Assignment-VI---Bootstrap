@@ -228,3 +228,25 @@ footer a:hover{
         border-radius: 5rem 0 0 5rem;
     }
   }
+
+
+/* blog page */
+
+
+.blog-page-content{
+    min-height: 50rem;
+}
+
+.blog-big-text{
+    height: fit-content;
+    font-size:5vw;
+    font-weight: bold;
+    padding-top: 1vw;
+}
+
+.blog-page-content .card{
+    letter-spacing: normal;
+    text-align: justify;
+}
+
+/* blog page end */
