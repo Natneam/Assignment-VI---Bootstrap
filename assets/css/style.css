@@ -276,4 +276,21 @@ footer a:hover{
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
-/* books page */
+/* books page end */
+
+
+/* courses page */
+.courses-big-text{
+    height: fit-content;
+    font-size:5vw;
+    font-weight: bold;
+    padding-top: 1vw;
+}
+
+.courses-subtitle{
+    font-size: 1.3rem;
+    letter-spacing: normal;
+    padding-bottom: 5rem;
+}
+
+/* courses page end */
