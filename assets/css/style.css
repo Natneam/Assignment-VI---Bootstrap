@@ -189,12 +189,12 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: rgb(253, 0, 0);
+    color: rgba(255, 255, 255, 0.415);
 }
 
 footer a:hover{
     text-decoration: none;
-    color: rgb(138, 0, 0);
+    color: rgb(253, 0, 0);
 }
 
 /* start of about me page */
