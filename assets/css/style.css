@@ -294,3 +294,37 @@ footer a:hover{
 }
 
 /* courses page end */
+
+/* contact page  */
+.contact-page-content{
+    min-height: 90vh;
+    margin-top: 1rem;
+    padding-bottom: 9rem;
+    max-width: 100vw;
+}
+
+.contact-page-title{
+    letter-spacing: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.map{
+    min-height: 30rem;
+    border: #ff7671 solid .1rem;
+    border-radius: 1rem;
+}
+.my-contact-from{
+    letter-spacing: normal;
+}
+
+.form-control:focus {
+    border-color: #d9534f;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 15px #d9544f9b;
+  }
+.form-control{
+    height: 3rem;
+    border-radius: 1rem;
+    border-color: #110e0e87;
+}
+/* contact page end */
