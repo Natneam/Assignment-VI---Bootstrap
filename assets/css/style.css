@@ -42,13 +42,12 @@ div#navbarResponsive ul li a:hover{
     opacity: 0.5;
 }
 
-div#navbarResponsive ul li.my-nav-item a:hover{
+div#navbarResponsive ul li.my-nav-item:hover{
+    background-color: black;
     color: white;
     opacity: 1;
-    background-color: black;
 }
-
-div#navbarResponsive ul li.my-nav-item:hover{
+div#navbarResponsive ul li.my-nav-item:hover>a{
     background-color: black;
     color: white;
     opacity: 1;
@@ -328,3 +327,11 @@ footer a:hover{
     border-color: #110e0e87;
 }
 /* contact page end */
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu a:active{
+    background-color: #d9534f;
+}
