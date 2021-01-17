@@ -53,6 +53,14 @@ div#navbarResponsive ul li.my-nav-item:hover>a{
     opacity: 1;
 }
 
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu a:active{
+    background-color: #d9534f;
+}
+
 /* Styling the quick intro section */
 .quick-intro-img{
     background: url(../img/bg-landscape.jpg);
@@ -62,7 +70,7 @@ div#navbarResponsive ul li.my-nav-item:hover>a{
     background-color: rgba(0, 0, 0, 0.524);
     height: 100vh;
     width: 100%;
-
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 50% 100%, 0 93%);
 }
 
 .quick-intro-cover-bg{
@@ -79,7 +87,7 @@ div#navbarResponsive ul li.my-nav-item:hover>a{
 
 .quick-intro-bio-wrapper{
     width: 70vw;
-    margin: 20vh auto;
+    margin: 10vh auto 20vh auto;
     letter-spacing: normal;
     font-size: 2.5rem;
     font-weight: normal;
@@ -111,6 +119,11 @@ div#navbarResponsive ul li.my-nav-item:hover>a{
     padding-bottom: 1.5rem;
 }
 
+
+.height-2rem{
+    height: 2rem;
+}
+
 .videos-section-wrapper #videos-jumbotron .justify-content-around a{
     width: 40%;
     margin: 10% 0;
@@ -132,6 +145,7 @@ footer{
     color: white;
     background-color: rgb(15, 17, 37);
     letter-spacing: normal;
+    /* clip-path: polygon(0 0, 50% 80%, 100% 0, 100% 100%, 0 100%, 0 30%); */
 }
 
 .subscribe-wrapper{
@@ -146,6 +160,14 @@ footer{
     background-position: center;
     background-size: cover;
 }
+@media only screen and (max-width: 576px) {
+    .subscribe-wrapper{
+        width: 100vw;
+        left:0;
+        border-radius: 0px;
+    }
+  }
+
 
 #subscribe-wrapper-inner{
     background-color: rgba(0, 0, 0, 0.4);
@@ -194,6 +216,12 @@ footer a:hover{
     margin: auto;
 }
 
+@media only screen and (min-width: 992px) {
+    .my-avatar-image{
+        border-radius: 5rem 0 0 5rem;
+    }
+  }
+
 .media-body{
     letter-spacing: normal;
     line-height: 2rem;
@@ -220,13 +248,6 @@ footer a:hover{
 
 /* End of about me page */
 
-
-/* media queries */
-@media only screen and (min-width: 992px) {
-    .my-avatar-image{
-        border-radius: 5rem 0 0 5rem;
-    }
-  }
 
 
 /* blog page */
@@ -267,6 +288,19 @@ footer a:hover{
     letter-spacing: normal;
     padding-bottom: 1.5rem;
 }
+
+ul.list-unstyled{
+    padding: 2rem;
+    margin: 5rem;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+    ul.list-unstyled{
+        padding: 0;
+        margin: 0;
+    }
+  }
 
 .media{
     border-radius: 1rem;
@@ -328,10 +362,4 @@ footer a:hover{
 }
 /* contact page end */
 
-.dropdown-toggle::after {
-    display: none;
-}
 
-.dropdown-menu a:active{
-    background-color: #d9534f;
-}
